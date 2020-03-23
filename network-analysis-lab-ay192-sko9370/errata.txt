@@ -1,0 +1,25 @@
+Q1: tcpdump pcap-filter format was very difficult to use, especially dealing with the TCP flag parameters. After filtering through TCP packets with tcp-syn flags coming from ip 10.1.60.66, I used "wc -l" to count the number of packets.
+
+Q2: tcpdump either gave too low a number or too high a number when I tried to use the filtering parameters for HTTP. First, I tried grep'ing HTTP, then HTTP: GET or HTTP: REQUEST, through the packet data, but sometimes this didn't work. Eventually, I used tshark and the filter formatting was much easier since I have experience with wireshark. I actually used an instance of wireshark running to properly format my filter since it corrects and gives you suggestions. I used "wc -l" at the end again to count the packets.
+
+Q3: Pretty easy using tshark.
+
+Q4: tshark didn't print out the contents of the data or I couldn't find the right option for it so I reverted back to tcpdump because it dumped the data by default. Initially, I actually found 112 packets... hmmm something seems off. I was using grep -o to list out just from the title tag on. (grep -o "<title>.*") Then I sorted them and only outputted the unique titles. Finally, I counted the packets. I was being too open with my grep constraints so I tried (grep -o "<title>.*</title>") since all proper html should have an open and close tag right? This got me 102, the original correct answer. To figure out the outliers, I ran diff on the output of these two attempts and found that a couple didn't have a closing title tag or the tag was malformed. To fix this, I tried (grep -o "<title>.*>"). I got 108. Ok... closer. Try (grep -o "<title>.*<")... 109.... What else... I ran diff again on the outputs. Maybe something to do with the empty title? ok, try (grep -o "<title.*<") why not. 110 bingo. Trouble is getting the output to match a4.txt. I can "cut" the front but there is sometimes a lot of garbage in the back that isn't part of the title.
+https://unix.stackexchange.com/questions/217628/cut-string-on-last-delimiter
+got it with a bit of inspiration on how to use cut properly here.
+Set "<" as a delimiter and take the first factor.
+The output of solve4.sh is different from a4.txt because it gets all 110 unique html titles, not just 102.
+
+Q5: Looking at a5.txt was the biggest hint here. I saw TCP Endpoints and a nicely formatted output table. I suspected this must be some sort of stat output from tshark itself, not some custom formatting in bash. I go in the man page for tshark and search "Endpoint." Easy enough, "-z endpoints,tcp" and bing----..... that's a lot of output. Oh, it's going through all the packets first. Fine, use "-Q" to quiet the initial packet reading. Now pipe and get the head of the output, enough lines to get the top 5 talkers. Took a couple tries but it was 9.
+
+Q6: Similar deal with Q5. For some reason, some ICMP files popped up in Q5 so I put the constraint in Q6 command also, just in case. Just cut off enough to see the first result.
+
+Q7: I keep getting a dissection error on some packets. I find that the smb has a field option "smb.file" from wireshark's online glossary of fields which seems to output the file name but there seems to be way too much output compared to the given answer. A lot of trial and error to get the field tag working with the source and destination ip's. To be continued... 
+Maybe my pcap file is corrupted?
+
+Went to AI, CPT Ragsdale suggests bottom-up approach by examining packets dealing with a specific file listed in a7.txt.
+Realize that there must be 2 different types of servers, one using smb and the other using smb2. They're backwards-compatible?
+
+Still have trouble finding relevant display filters because I don't know what the different values are unless it's a boolean value.
+
+Open up wireshark, for some reason click on expressions to open up the display filter "wizard." After choosing SMB, this wizard shows all the possible values for different filters and what they mean. I choose smb.create.action==2 and it works on first try. Didn't even have to sort it.

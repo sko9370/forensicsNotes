@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.0</version>
+    <build_environment>
+      <compiler>GCC 5.3</compiler>
+      <library name='libext2fs' version='1.42.13'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.4.2'/>
+      <library name='libntfs' version='libntfs-3g'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.4.0-141-generic</os_release>
+      <os_version>#167-Ubuntu SMP Wed Dec 5 10:40:15 UTC 2018</os_version>
+      <host>lab1</host>
+      <arch>x86_64</arch>
+      <uid>1000</uid>
+      <start_time>2019-02-03T15:05:14-0500</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/cases/lab2/carve001</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>64769536</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='64769536'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0010000.png</filename>
+    <filesize>12966639</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5120000' len='12966912'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0045326.pcx</filename>
+    <filesize>5926912</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='23206912' len='5926912'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0056902.jpg</filename>
+    <filesize>60716</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='29133824' len='60928'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0067021.bmp</filename>
+    <filesize>5111906</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='34314752' len='5112320'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0087006.tif</filename>
+    <filesize>20089344</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='44547072' len='20089344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0126243.gif</filename>
+    <filesize>132948</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='64636416' len='133120'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

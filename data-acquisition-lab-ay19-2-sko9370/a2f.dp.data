@@ -1,0 +1,23 @@
+Disk /dev/sda: 40 GiB, 42949672960 bytes, 83886080 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x6f178989
+
+Device     Boot   Start      End  Sectors  Size Id Type
+/dev/sda1  *       2048   999423   997376  487M 83 Linux
+/dev/sda2       1001470 83884031 82882562 39.5G  5 Extended
+/dev/sda5       1001472 83884031 82882560 39.5G 8e Linux LVM
+
+
+Disk /dev/mapper/ubuntu--vg-root: 35.5 GiB, 38105251840 bytes, 74424320 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/ubuntu--vg-swap_1: 4 GiB, 4290772992 bytes, 8380416 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes

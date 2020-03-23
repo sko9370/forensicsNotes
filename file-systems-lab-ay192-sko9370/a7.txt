@@ -1,0 +1,6 @@
+Scalpel was able to recover many times the number of valid files, so it was the more successful tool.
+However, one of the files it recovered was invalid (the tif file).
+Photorec was able to find some files that scalpel did not find, especially some with different file types.
+Scalpel seems to have more customization options, judging from its man page.
+This could be useful when you only want to glean specific types of files in cases where the search space is very large (1 tb disks).
+If given the time and resources, scalpel should be run first and then photorec should be run after to gather the largest number of recovered files.

@@ -1,0 +1,1 @@
+The text in the file good.csv is formatted as a csv with commas as delimiters but the file command simply recognizes it as a file containing ASCII text.

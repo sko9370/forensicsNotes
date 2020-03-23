@@ -1,0 +1,11 @@
+a. How many of each type of file were recovered?
+1x gif
+55x png
+1x tif
+
+b. How many of the recovered files are valid?
+All but one (56 files) tif file are valid.
+The tif file is chopped.
+
+c. Why do you think scalpel recovers invalid files?
+Even if a file appears as invalid, people and other tools may be able to glean other relevant information from metadata or how the file was invalidated.

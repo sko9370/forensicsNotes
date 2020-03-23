@@ -1,0 +1,4 @@
+sudo fdisk -l
+
+("How to partition a disk in Linux")
+full CSE citation in citations.txt

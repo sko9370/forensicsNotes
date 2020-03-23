@@ -1,0 +1,73 @@
+
+Scalpel version 1.60 audit file
+Started at Sun Feb  3 14:59:04 2019
+Command line:
+scalpel -o scalpel-default -O -c scalpel.conf carve001 
+
+Output directory: /cases/lab2/scalpel-default
+Configuration file: scalpel.conf
+
+Opening target "/cases/lab2/carve001"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000004.png     23742004		NO         12444764		carve001
+00000003.png     23679912		NO         12506856		carve001
+00000002.png     23630884		NO         12555884		carve001
+00000001.png     23383373		NO         12803395		carve001
+00000005.png     34614526		NO          1572242		carve001
+00000006.png     34667068		NO          1519700		carve001
+00000007.png     34690282		NO          1496486		carve001
+00000008.png     34794612		NO          1392156		carve001
+00000009.png     34965167		NO          1221601		carve001
+00000010.png     34968798		NO          1217970		carve001
+00000011.png     34982899		NO          1203869		carve001
+00000012.png     35048404		NO          1138364		carve001
+00000013.png     35084267		NO          1102501		carve001
+00000014.png     35112553		NO          1074215		carve001
+00000015.png     35119343		NO          1067425		carve001
+00000016.png     35133963		NO          1052805		carve001
+00000017.png     35134174		NO          1052594		carve001
+00000018.png     35341795		NO           844973		carve001
+00000019.png     35405847		NO           780921		carve001
+00000020.png     35622690		NO           564078		carve001
+00000021.png     35636746		NO           550022		carve001
+00000022.png     35765286		NO           421482		carve001
+00000023.png     35766394		NO           420374		carve001
+00000024.png     36031286		NO           155482		carve001
+00000025.png     36147955		NO            38813		carve001
+00000026.png     36307134		NO           570691		carve001
+00000027.png     36369735		NO           508090		carve001
+00000028.png     36423869		NO           453956		carve001
+00000029.png     36433898		NO           443927		carve001
+00000030.png     36444800		NO           433025		carve001
+00000031.png     36591165		NO           286660		carve001
+00000032.png     36741140		NO           136685		carve001
+00000033.png     36817373		NO            60452		carve001
+00000034.png     37187510		NO            69368		carve001
+00000035.png     37291603		NO           168852		carve001
+00000036.png     37519180		NO            13552		carve001
+00000037.png     37614117		NO             9609		carve001
+00000038.png     37647399		NO            59231		carve001
+00000039.png     38005887		NO          1055323		carve001
+00000040.png     38049051		NO          1012159		carve001
+00000041.png     38154581		NO           906629		carve001
+00000042.png     38208068		NO           853142		carve001
+00000043.png     38221277		NO           839933		carve001
+00000044.png     38263092		NO           798118		carve001
+00000045.png     38501888		NO           559322		carve001
+00000046.png     38527437		NO           533773		carve001
+00000047.png     38529837		NO           531373		carve001
+00000048.png     38619511		NO           441699		carve001
+00000049.png     38824894		NO           236316		carve001
+00000050.png     38857480		NO           203730		carve001
+00000051.png     38866596		NO           194614		carve001
+00000052.png     38869987		NO           191223		carve001
+00000053.png     38901164		NO           160046		carve001
+00000054.png     38957671		NO           103539		carve001
+00000055.png     39000796		NO            60414		carve001
+00000056.tif     44547072		YES        20222465		carve001
+00000000.gif     64636416		NO            36579		carve001
+
+
+Completed at Sun Feb  3 14:59:07 2019

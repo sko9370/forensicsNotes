@@ -1,0 +1,17 @@
+a. How many of each type of file were recovered?
+1x png
+1x pcx
+1x jpg
+1x bmp
+1x tif
+1x gif
+
+b. How many of the recovered files are valid?
+All of the recovered files seem valid from a file command run on each file.
+
+c. How does photorec work. What principles does it use and rely on?
+"PhotoRec ignores the filesystem and goes after the underlying data, so it'll work even if your media's filesystem is severely damaged or formatted... it will never attempt to write to the drive or memory support your are about to recover lost data from." from the "man photorec" description.
+
+PhotoRec makes a point of getting the most data out of a disk without changing anything on it.
+This allows PhotoRec to be used relatively safely as an initial sweep of a disk.
+Then a more stringent recovery application can be used successively to gather more files.

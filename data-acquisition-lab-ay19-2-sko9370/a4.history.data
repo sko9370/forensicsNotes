@@ -1,0 +1,219 @@
+sudo     systemctl stop apt-daily.timer
+sudo systemctl disable apt-daily.timer
+sudo systemctl mask apt-daily.service
+sudo systemctl daemon-reload
+sudo systemctl status
+sudo apt update
+sudo apt upgrade
+sudo shutdown -r now
+sudo apt update
+sudo vim /etc/resolv.conf 
+sudo apt upgrade
+sudo apt update
+sudo apt upgrade
+ps -ef|grep apt
+sudo apt upgrade
+ip addr
+sudo apt update
+sudo apt upgrade 
+sudo apt autoremove
+sudo shutdown -r now
+sudo apt update
+sudo apt upgrade
+sudo shutdown -h now
+sudo apt update
+sudo apt upgrade
+sudo shutdown -r now
+sudo apt update
+sudo shutdown -h now
+netstat -an | tee netstat.txt | sha1sum
+ls
+vim netstat.txt 
+netstat -an | tee netstat.txt | sha1sum > 
+python3 -m http.server
+python3 -m http.server &
+jj
+ps
+wget http://10.4.83.59:8000
+vim index.html 
+date
+date --help
+time
+date
+ifconfig
+ip route
+ip route show
+ip addr
+users
+df
+dd
+dd --help
+ddclear
+clear
+cat /etc/passwd
+cat /etc/passwd | less
+cd /dev/sda
+dd /dev/sda
+df
+dd /dev/sda1
+dd --help
+man dd
+dd --help | less
+clear
+ls
+cat ter
+ls
+rm ter
+cat index.html 
+clear
+ls
+cd
+cd ..
+ls
+cd ..
+ls
+cd bin
+ls
+cd mount
+./mount
+cd
+mount
+netstat -an
+netstat -an | tee netstat.txt
+ls
+date
+date | tee a2a.data.txt | sha256sum | tee a2a.date.sha256
+ls
+cat a2a.data.txt 
+cat a2a.date.sha256 
+echo date > a2a.txt
+ls
+cat a2a.txt
+mkdir lab1
+mv *.txt lab1
+ls
+mv a2a.date.sha256 lab1
+ls
+cd lab1
+ls
+netstat
+netstat -n
+ifconfig
+ip addr
+ifconfig | tee a2b.data.txt | sha256sum | tee a2b.data.sh256
+ls
+mv a2a.data.txt a2a.date.txt
+ls
+echo ifconfig > a2b.txt
+ls
+ls -a
+ls -l
+ls -lv
+mv a2a.date.sha256 a2a.data.sha256
+mv a2a.date.txt a2a.data.txt
+ls
+cat a2a.data.sha256 
+sha256sum a2a.data.txt
+cat a2a.data.txt | sha256sum
+ls
+clear
+ip rote
+ip route
+ip route | tee a2c.data.txt | sha256sum | tee a2c.data.sha256
+ls
+echo ip route > a2c.txt
+ls
+echo ip addr > a2d.txt
+ls
+cat a2d.txt 
+ip addr | tee a2d.data.txt | sha256sum | tee a2d.data.sha256
+ls
+users
+users ls
+ls users
+clear
+ls
+echo users > a2e.txt
+users | tee a2e.data.txt | sha256sum > a2e.data.sha256
+ls
+cat a2e.data.txt a2e.data.sha256 
+df
+dd
+fdisk
+fdisk -l
+sudo fdisk -l
+df
+touch citations.txt
+ls
+vim citations.txt 
+vim a2f.txt
+cat a2f.txt 
+fdisk -l | tee a2f.data.txt | sha256sum | tee a2f.data.sha256
+sudo fdisk -l | tee a2f.data.txt | sha256sum | tee a2f.data.sha256
+vim a2f.txt
+ls
+cd /dev/sda
+man dd
+dd /dev/sda
+dd --help
+less dd --help
+less 'dd --help'
+dd --help | less
+cd /dev
+ls
+dd sda
+sda dd
+dd if=/dev/sda
+sudo dd if=/dev/sda
+sudo dd if=/dev/sda | hexdump -C
+sudo dd if=/dev/sda bs=512 count=1 | hexdump -C
+sudo dd if=/dev/sda bs=512 count=1 | hexdump 
+cd ../lab
+cd 
+ls
+cd lab1
+sudo dd if=/dev/sda bs=512 count=1 | hexdump -C | tee a3.data.txt
+cat a3.data.txt 
+echo 'sudo dd if=/dev/sda bs=512 count=1 | hexdump -C | tee a3.data.txt' > a3.txt
+cat a3.
+cat a3.txt
+head a3.txt
+tail a3.txt
+vim a3.txt
+sudo dd if=/dev/sda bs=512 count=1 | hexdump -C | tee a3.data.txt | sha256sum | a3.data.sha256
+sudo dd if=/dev/sda bs=512 count=1 | hexdump -C | tee a3.data.txt | sha256sum | tee a3.data.sha256
+ls
+cat a3.data.sha256 a3.data.txt
+cat a3.txt
+ls
+vim a3.txt
+vim a2f.txt
+vim citations.txt 
+ls
+mv a3.data.txt a3.mbr.data
+ls
+mv a3.data.sha256 a3.mbr.sha256
+ls
+mv a2f.data.txt a2f.dp.data
+mv a2f.data.sha256 a2f.dp.sha256
+ls
+mv a2e.data.txt a2e.users.data
+mv a2e.data.sha256 a2e.users.sha256
+ls
+mv a2d.data.txt a2d.ip.data
+mv a2d.data.sha256 a2d.ip.sha256
+ls
+mv a2c.data.txt a2c.route.data
+mv a2c.data.sha256 a2c.route.sha256
+ls
+mv a2b.data.txt a2b.network.data
+mv a2b.data.sh256 a2b.network.sha256
+mv a2a.data.txt a2a.date.data
+mv a2a.data.sha256 a2a.date.sha256
+ls
+cd ..
+ls
+python3 -m http.server
+jclear
+clear
+netstat -an | nc -w 3 10.4.83.59 46400

@@ -1,0 +1,5 @@
+chhaya vishwakarmachhaya vishwakarma 2602714, 7171u7171u 86548, heemaylheemayl 35.3k375105, Rohit ChaudhariRohit Chaudhari 11. cut string on last delimiter. Unix & Linux Stack Exchange. [accessed 2019 Feb 12]. https://unix.stackexchange.com/questions/217628/cut-string-on-last-delimiter
+
+On question 4, I was having a hard time getting rid of the garbage on the right side of the html titles.
+I first considered reversing and then running cut again, but I experimented with the factors option without reversing and found that I could just catch the "<" and the output would only contain the html titles!
+I learned the rev and cut command from this post (little did I know that "cut" was the actual command I needed to clean the output) but only needed to use cut. 

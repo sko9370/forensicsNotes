@@ -1,0 +1,46 @@
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\windows\system32\spinlock.exe
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.4	10.3.58.7	\PSEXESVC.EXE
+10.3.58.5	10.3.58.7	\PSEXESVC.EXE
+10.3.58.6	10.3.58.7	\users\public\Temp
+10.3.58.6	10.3.58.7	\users\public\Temp\system7
+10.3.58.6	10.3.58.7	\users\public\temp\system7\CC-Backstopped-Accounts.xlsx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Credit-Card-Numbers-For-Research.xls
+10.3.58.6	10.3.58.7	\users\public\temp\system7\SUCCESS-TEST-PLAN-VIBRANIUM-ALLOY-RESULTS.docx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\ADAMANTIUM-Background.docx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Metal Alloy List Research.xlsx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Researched Sub-Atomic Particles.xlsx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\The Shield Background and Ongoing Research.docx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Vibrainium(1).doc
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Vibrainium.doc
+10.3.58.6	10.3.58.7	\users\public\temp\system7\VIBRANIUM.docx
+10.3.58.6	10.3.58.7	\users\public\temp\system7\Dossier - Dr Myron MacLain.docx
+10.3.58.6	10.3.58.7	\users\public\temp\system4
+10.3.58.6	10.3.58.7	\users\public\temp\system4\ntds.dit
+10.3.58.6	10.3.58.7	\users\public\temp\system4\SAM
+10.3.58.6	10.3.58.7	\users\public\temp\system4\SYSTEM
+10.3.58.8	10.3.16.5	\New folder
+10.3.58.8	10.3.16.5	\IR\Autoruns-new.zip
+10.3.58.8	10.3.16.5	\IR\Eula.txt
+10.3.58.8	10.3.16.5	\IR\autoruns.chm
+10.3.58.8	10.3.16.5	\IR\autoruns.exe
+10.3.58.8	10.3.16.5	\IR\autorunsc.exe
+10.3.58.6	10.3.58.7	\users\public\temp\system7\EXFIL.pst
+10.3.58.6	10.3.58.7	\windows\system32\spinlock.exe
+10.3.58.6	10.3.58.7	\PSEXESVC.EXE
+10.3.58.6	10.3.58.7	\PSEXESVC.EXE
+10.3.58.6	10.3.58.7	\windows\system32\dllhost
+10.3.58.6	10.3.58.7	\windows\system32\dllhost\svchost.exe
+10.3.58.6	10.3.58.7	\windows\system32\dllhost\winclient.reg
+10.3.58.6	10.3.58.7	\PSEXESVC.EXE
+10.3.58.6	10.3.58.7	\PSEXESVC.EXE

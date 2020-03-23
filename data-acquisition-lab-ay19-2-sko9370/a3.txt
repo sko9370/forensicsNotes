@@ -1,0 +1,4 @@
+sudo dd if=/dev/sda bs=512 count=1 | hexdump -C
+
+("how to see master boot record")
+see citations.txt for full CSE

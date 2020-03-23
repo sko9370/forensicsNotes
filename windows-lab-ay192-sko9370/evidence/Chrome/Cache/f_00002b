@@ -1,0 +1,517 @@
+﻿
+
+
+<!DOCTYPE html>
+<html lang="en-NZ" dir="ltr" class="no-js">
+<head>
+	<title>Set up email in Outlook 2010 or Outlook 2013 for Office 365 or Exchange-based accounts</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" name="Language" content="en-NZ" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link href="/favicon.ico?b=16039182150" rel="shortcut icon" type="image/x-icon" />
+		<link rel="canonical" href="https://support.office.com/en-nz/article/Set-up-email-in-Outlook-2010-or-Outlook-2013-for-Office-365-or-Exchange-based-accounts-6e27792a-9267-4aa4-8bb6-c84ef146101b" />
+	<meta name="description" content="Learn how to get Outlook 2013 or Outlook 2010 set up to work with Office 365 or Microsoft Exchange-based email accounts." />
+	<meta name="ShowContactUs" content="false" />
+	<meta name="LocaleFallback" content="en-US" />
+	
+
+	<meta name="search.applicationSuite" content="Outlook, Outlook" />
+	<meta name="search.appverid" content="ZOL150, ZOL140, MOW150, OWE150, OWP150" />
+	<meta name="search.assetid" content="6e27792a-9267-4aa4-8bb6-c84ef146101b" />
+
+	<meta name="search.audienceType" content="End User" />
+	<meta name="search.contenttype" content="article (conceptual overviews)" />
+
+	<meta name="search.IsOfficeDoc" content="content" />
+
+	<meta name="search.OCMSasset" content="HA102823161" />
+	<meta name="search.operatingSystemid" content="7478f241-7574-45ef-959c-b8be90099896" />
+	<meta name="search.operatingSystem" content="not applied" />
+
+	<meta name="search.sku" content="Outlook Web App, Outlook Web App for Office 365 Enterprise, Outlook Web App for Office 365 Small Business" />
+	<meta name="search.skuid" content="MOW150, OWE150, OWP150" />
+	<meta name="search.softwareVersion" content="15, 14, 15, 15, 15" />
+	<meta name="search.version" content="5" />
+
+<meta name="search.mkt" content="en-NZ" />
+
+	
+<meta name="ms.lang" content="en" />
+<meta name="ms.loc" content="NZ" />
+	<meta name="ms.ocpub.assetID" content="6e27792a-9267-4aa4-8bb6-c84ef146101b" />
+
+<meta name="ms.pagetype" content="Article" />
+<meta name="ms.pltfrm" content="OCPub" />
+<meta name="ms.prod" content="Office" />
+<meta name="ms.sitesec" content="Support" />
+<meta name="ms.sitever" content="16039182150" />
+<meta name="ms.service" content="office.com" />
+
+<meta name="ms.correlationId" content="e0af064c-07d9-4bad-8181-8c849f7ca1b6" />
+
+
+	<meta name="contentlocation" content="https://support.content.office.net" />
+<script type="text/javascript">
+	var varSegmentation = 0;
+	var varClickTracking = 1;
+	var varCustomerTracking = 1;
+	var varCustomerCookies = ["msresearch"];
+	var varAutoFirePV = 0;
+	var Route = "16000";
+	var Ctrl = "010";
+</script>	<script type="text/javascript">
+		var g_signupUrl='https://signup.live.com/signup.aspx?mkt=en%2DUS&wreply=https%3A%2F%2Fsupport%2Eoffice%2Ecom%2Fen%2Dnz%2Farticle%2FSet%2Dup%2Demail%2Din%2DOutlook%2D2010%2Dor%2DOutlook%2D2013%2Dfor%2DOffice%2D365%2Dor%2DExchange%2Dbased%2Daccounts%2D6e27792a%2D9267%2D4aa4%2D8bb6%2Dc84ef146101b%3Fui%3Den%2DUS%26rs%3Den%2DNZ%26ad%3DNZ%26s%3D2%26auth%3D1%26nf%3D1';var g_msaPasswordResetUrl='https://account.live.com/ResetPassword.aspx?mkt=en%2DUS&wreply=https%3A%2F%2Fsupport%2Eoffice%2Ecom%2Fen%2Dnz%2Farticle%2FSet%2Dup%2Demail%2Din%2DOutlook%2D2010%2Dor%2DOutlook%2D2013%2Dfor%2DOffice%2D365%2Dor%2DExchange%2Dbased%2Daccounts%2D6e27792a%2D9267%2D4aa4%2D8bb6%2Dc84ef146101b%3Fui%3Den%2DUS%26rs%3Den%2DNZ%26ad%3DNZ%26s%3D3%26auth%3D1%26nf%3D1';var g_msaLoginUrl='https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1427124647&rver=6.5.6509.0&wp=MBI_SSL_SHORT&wreply=https:%2F%2Fsupport.office.com%2Fauthredir%3Furl%3Dhttps%253a%252f%252fsupport.office.com%253a443%252fen-nz%252farticle%252fSet-up-email-in-Outlook-2010-or-Outlook-2013-for-Office-365-or-Exchange-based-accounts-6e27792a-9267-4aa4-8bb6-c84ef146101b%253fui%253den-US%2526rs%253den-NZ%2526ad%253dNZ%2526s%253d1%2526auth%253d1%2526nf%253d1%26hurl%3D6mOhhb8edV2T8S4GNGXthu9EZ2xyaGxRDgBS58fpnKg%253d%26ipt%3D0&lc=1033&id=290950&cbcxt=27';var g_hrdIframeUrl='https://odc.officeapps.live.com/odc/emailhrd?lcid=1033&syslcid=1033&uilcid=1033&app=27&a=1&p=6&hm=0&ver=16&fpEnabled=1';var g_orgIdLoginUrl='https://portal.office.com/?lc=1033';var g_authType='NotAuthenticated';var g_hrdOverride='';
+		var OOGlobal = {
+			BaseDomain: location.protocol + "//" + location.host,
+			Culture: "en-NZ",
+			LCID: "5129",
+			IsAuthenticated: "False",
+			WebAppUrl: "https://office.com/start",
+			GUID: "6e27792a-9267-4aa4-8bb6-c84ef146101b",
+			Platform: navigator.platform
+		};
+		
+	</script>
+	
+<script src="/bundles/wtOptimize?v=gmi5yb9MuPJRnvJI7rAnWoZQwsTCOB53cKC00aDU3bE1?b=16039182150"></script>
+	<link href="/Content/css?v=7Ji39fixWplFJHTMNcIrlqznWz8bn9XmKfkFzykK0IE1?b=16039182150" rel="stylesheet"/>
+
+	<link href="/Content/articleCss?v=KKLhtOrsak3NWWOhIDGey4WusaBUZDhKJVO5Ixi5y0s1?b=16039182150" rel="stylesheet"/>
+
+	<script src="/bundles/modernizr?v=fkiOQOTN6clcm597YUur3XOCoxGf0GUw-9KnkKYzK8U1?b=16039182150"></script>
+
+	<link type="text/css" rel="stylesheet" href="/Resources/1033/sharedheader.css?b=16039182150" />
+	<style>.UnifiedHeaderUIFont { font-size: 14px; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }.FooterUIFont { font-size: 9pt; font-family: 'Segoe UI Semi Light','Segoe UI Light','Segoe UI Web Light','Segoe UI','Segoe UI Web',Arial,Verdana,sans-serif }</style><style>.AppTileUIFont { font-size: 9pt; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }</style><style>.swLoadingText, .swLoadingErrorText{  font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI','Segoe UI Web',Arial,Verdana,sans-serif; }</style>
+<link href="/Content/intl.css?b=16039182150" rel="stylesheet"/>
+
+	
+</head>
+<body class="supCont">
+	<script type="text/javascript">
+		if (typeof WTOptimize !== "undefined") {
+			WTOptimize.setup();
+		}
+	</script>
+	
+	
+<div id='h_bar' class='headBar UnifiedHeaderUIFont UnifiedHeader ' style='' role='navigation'>
+	
+	<div class='headTLC' style=''>
+		<a onclick='ExpandHeader()' onkeydown='OnSwitcherLauncherKeyDown(event)' id='h_logoChev' class='headChevLink' href='#' style='' title='List of Microsoft Services' aria-label='List of Microsoft Services' role='button'>
+				<img src='/resources/1033/App_Switcher_Waffle.50x50x32.png?b=16039111000' style='width:50px;height:50px;' role='presentation'/>
+		</a><span class='headLogoPipe' style='visibility:hidden' role='presentation' aria-hidden='true'>&#160;</span><a href = http://go.microsoft.com/fwlink/p/?LinkID=317002 class='headLogo' id='h_logoLink' role='presentation' aria-label='Office.com'>
+			<span><img id='h_logo' src='/resources/1033/OfficeText.94x50x32.png?b=16039111000' style='width:94px;height:50px;' role='presentation' /></span>
+		</a>
+	
+	</div>
+	<div class='headTRC'>
+	
+		<div class='headXLinks'><a href='http://go.microsoft.com/fwlink/p/?LinkID=317003'  id='HLProducts' class='headXLink HLinks' target='_self'>Products</a><a href='http://go.microsoft.com/fwlink/p/?LinkID=320491'  id='HLTAA' class='headXLink HLinks' target='_self'>Templates</a><a href='https://store.office.com/?source=supportheader'  id='HLStore' class='headXLink HLinks' target='_self'>Store</a><a href='http://go.microsoft.com/fwlink/p/?LinkID=320140'  id='HLSupport' class='headXLink HLinks' target='_self'>Support</a></div><span class='headMeContainer' style=''><a class='headMyAccountLink ' id='h_myacct' href='https://office.live.com/start/MyAccount.aspx' style=''>My account</a><span class='headMeNameContainer '><span class='headMeName' style='display:none;'></span><span class='headUsernamePipe' style=''></span><a class='headMeLink headHighlight' id='h_sign' href='#' onClick='ShowSignInControl();'>Sign in</a></span></span>
+	</div>
+	<div class='headerMenusContainer'>
+		
+	</div>
+</div><div class='headerOverlay' id='h_overlay'></div>
+<div class='headerBlurbpanel' id='h_signincntrl' role='main'>
+	<iframe id= 'h_signiniframe' class='signinframe iframeloading' frameBorder='0' src=''></iframe>
+</div>
+	<div id='sw_bar' class='swBar  UnifiedHeader' style='display:none;top:30px;' onclick='CollapseHeader()'>
+	<ul id='sw_tileList' class='swTileList'>
+		<li class='swTile '>
+	<a class='swTileLink' id='sw_Outlook' href='https://office.live.com/start/Outlook.aspx' style='background-color:#0072c6;border-color:#0072c6;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileOutlook_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Outlook.com</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_People' href='https://office.live.com/start/People.aspx' style='background-color:#d24726;border-color:#d24726;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TilePeople_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>People</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Calendar' href='https://office.live.com/start/Calendar.aspx' style='background-color:#5133ab;border-color:#5133ab;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileCalendar_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Calendar</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_PartnerLink' href='https://office.live.com/start/OneDrive.aspx' style='background-color:#094ab2;border-color:#094ab2;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileCloudLogo_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>OneDrive</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Word' href='https://office.live.com/start/Word.aspx' style='background-color:#2b579a;border-color:#2b579a;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileWord_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Word Online</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Excel' href='https://office.live.com/start/Excel.aspx' style='background-color:#217346;border-color:#217346;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileExcel_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Excel Online</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_PowerPoint' href='https://office.live.com/start/PowerPoint.aspx' style='background-color:#d24726;border-color:#d24726;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TilePowerPoint_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>PowerPoint Online</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_OneNote' href='https://office.live.com/start/OneNote.aspx' style='background-color:#80397b;border-color:#80397b;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileOneNote_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>OneNote Online</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_OfficeDotCom' href='https://office.live.com/start/default.aspx' style='background-color:#E83F24;border-color:#E83F24;' target='_blank'>
+		<span class='clip110x110 ci '><img src='/resources/1033/wapsw.png?b=16039111000' class='wapsw_ODC_TileOfficeOnline_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Office Online</span>
+	</a>
+</li>
+	</ul>
+	<span class='border-arrow arrow'></span>
+	<span class='arrow'></span>
+</div>
+<div id='sw_barBG' class='headerBarBG' onclick='CollapseHeader()'></div>
+	<div class='bodyContainer'><div class='bodyContent ' id='b_content'>
+
+	<section id="ocHelp" style="width:100%">
+		<div>
+			<div class="grd main-content zero-margin" id="ocMainContent">
+				
+	<div class="row">
+		<div class="col-1-1">
+			<div id="contactUs">
+				<div class="ocContactSearch">
+					<form class="ocSearchForm" id="ocSearchForm" onsubmit="get_action(this);" method="post">
+						<div class="ocSearchBar" id="SearchControl_ocSearchBar">
+							<input name="SearchControl$ocSearchBox" class="ocSearchBox" id="ocSearchBox" type="text" placeholder="Search">
+							<input name="SearchControl$ocSearchButton" class="ocSearchButton" id="ocSearchButton" type="image" src="/images/ocSearchButton.png">
+							<input id="ocSearchDefaultText" type="hidden" value="Search" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="row">
+					
+					<div class="col-5-5">
+						
+
+<article id="ocpArticleContent" class="ocpArticleContent">
+        <h1>Set up email in Outlook 2010 or Outlook 2013 for Office 365 or Exchange-based accounts</h1>
+        <section class="ocpSummary">
+          <p>Learn how to get Outlook 2013 or Outlook 2010 set up to work with Office 365 or Microsoft Exchange-based email accounts.</p>
+        </section>
+        <a name="__top">	</a>
+        <section class="ocpIntroduction">
+          <p>You can set up your Office 365 for business or other Microsoft Exchange-based email with Outlook 2010 or Outlook 2013. You can do this in the setup wizard by simply typing your email address and password. Outlook uses a process called Autodiscover to automatically find your settings and to set up an Exchange connection to your account. If you aren’t connecting to an Office 365 or other Exchange-based account (for example, a Gmail or Yahoo! account), see <a href="#__what_else_do" class="ocpInlineLink" title="What else do I need to know?">What else do I need to know?</a></p>
+          <p>If you’re an Office 365 user using Outlook 2010, you need to set up your desktop before you can set up Outlook to access your account. For more information, see <a href="Use-my-current-Office-desktop-apps-with-Office-365-3324b8b8-dceb-45e2-ac24-c642720108f7" class="ocpArticleLink" title="Use my current Office desktop apps with Office 365">Use my current Office desktop apps with Office 365</a>. For information about how to set up email in Outlook 2007, see <a href="Set-up-email-in-Outlook-2007-1cf5c44a-43c1-4332-bb54-0d7545322cc0" class="ocpArticleLink" title="Set up email in Outlook 2007">Set up email in Outlook 2007</a>. </p>
+          <p>
+            <b class="ocpNote"> Note </b>  You may be able to manually set up Outlook 2010 or Outlook 2013 to access your email account by using Post Office Protocol (POP) or Internet Message Access Protocol (IMAP). Using Autodiscover is suggested, however, because the process automatically sets up an Exchange connection to your account. With POP or IMAP, you can't use many of the calendar and other collaboration features that are available when you connect to your account by using Exchange. For more information, see <a href="#__what_else_do" class="ocpInlineLink" title="What else do I need to know?">What else do I need to know?</a></p>
+        </section>
+        <section class="ocpSection">
+          <h2>In this article</h2>
+          <a name="___toc___1_l">	</a>
+          <dl class="ocpTOC">
+            <dd>
+              <p>
+                <a href="#__toc332372186" class="ocpInlineLink" title="Set up an Exchange connection to your email in Outlook 2010 or Outlook 2013">Set up an Exchange connection to your email in Outlook 2010 or Outlook 2013</a>
+              </p>
+            </dd>
+            <dd>
+              <p>
+                <a href="#__toc332372187" class="ocpInlineLink" title="Set up a POP3 or IMAP4 connection to your email in Outlook 2010 or Outlook 2013">Set up a POP3 or IMAP4 connection to your email in Outlook 2010 or Outlook 2013</a>
+              </p>
+              <dl>
+                <dd>
+                  <p>
+                    <a href="#__find_your_pop" class="ocpInlineLink" title="Find your POP or IMAP server settings">Find your POP or IMAP server settings</a>
+                  </p>
+                </dd>
+              </dl>
+            </dd>
+            <dd>
+              <p>
+                <a href="#__what_else_do" class="ocpInlineLink" title="What else do I need to know?">What else do I need to know?</a>
+              </p>
+            </dd>
+            <dd>
+              <p>
+                <a href="#__toc332372190" class="ocpInlineLink" title="What if I want to know more?">What if I want to know more?</a>
+              </p>
+            </dd>
+          </dl>
+        </section>
+        <a name="__toc332372186">	</a>
+        <section class="ocpSection">
+          <h2>Set up an Exchange connection to your email in Outlook 2010 or Outlook 2013</h2>
+          <ol type="1">
+            <li>
+              <p>Open Outlook 2010 or Outlook 2013. If the Microsoft Outlook Startup Wizard opens, on the first page of the wizard click <b class="ocpUI">Next</b>. On the <b class="ocpUI">E-mail Accounts</b> page, click <b class="ocpUI">Next</b> to set up an email account. </p>
+              <p>If the Microsoft Outlook Startup Wizard doesn't open, on the Outlook toolbar click the <b class="ocpUI">File</b> tab. Then click <b class="ocpUI">Add Account</b>  above the <b class="ocpUI">Account Settings</b> button.</p>
+            </li>
+            <li>
+              <p>On the <b class="ocpUI">Auto Account Setup</b> page, Outlook may automatically fill in the <b class="ocpUI">Your Name</b> and <b class="ocpUI">E-mail Address</b> settings based on how you're logged on to your computer. If the settings are filled in and they're correct, click <b class="ocpUI">Next</b> to have Outlook finish setting up your account. </p>
+              <p>If the settings on the <b class="ocpUI">Auto Account Setup</b> page aren't filled in or aren't correct, do the following:</p>
+              <ul>
+                <li>
+                  <p> Type the correct settings based on the information provided to you by the person who manages your email account.</p>
+                </li>
+                <li>
+                  <p>If the name in the <b class="ocpUI">Your Name</b> box isn't correct, you may need to reset the options on the <b class="ocpUI">Auto Account Setup</b> page before you can edit your name. To reset the options, click <b class="ocpUI">Manually configure server settings or additional server types</b> &gt;  <b class="ocpUI">E-mail Account</b>.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Click <b class="ocpUI">Next</b> and Outlook searches online to find your email server settings. You'll be prompted to enter your user name and password during this search. Make sure that you type your <i class="ocpItalic">full email address</i> (for example, tony@contoso.com) as your user name.</p>
+              <p>If Outlook is able to set up your account, you'll see this message: “Congratulations! Your email account is successfully configured and ready to use.” Click <b class="ocpUI">Finish</b>.</p>
+              <p>If Outlook isn't able to set up your account, see <a href="#__what_else_do" class="ocpInlineLink" title="What else do I need to know?">What else do I need to know?</a>  in this article.</p>
+            </li>
+          </ol>
+          <p>
+            <a href="#top" class="ocpTopOfPage" title="Top of Page">Top of Page</a>
+          </p>
+        </section>
+        <a name="__toc332372187">	</a>
+        <section class="ocpSection">
+          <h2>Set up a POP3 or IMAP4 connection to your email in Outlook 2010 or Outlook 2013</h2>
+          <p>If you’re using Outlook 2010 or Outlook 2013, you may be able to connect using Exchange instead of through POP3 or IMAP4. Connecting using Exchange gives you calendar and collaboration features that you can’t get if you connect by using POP or IMAP. For more information, see <a href="#__what_else_do" class="ocpInlineLink" title="What else do I need to know?">What else do I need to know?</a> in this article.</p>
+          <ol type="1">
+            <li>
+              <p>Open Outlook. If the Microsoft Outlook Startup Wizard opens, on the first page of the wizard click <b class="ocpUI">Next</b>. Then on the <b class="ocpUI">E-mail Accounts</b> page, click <b class="ocpUI">Next</b> to set up an email account. </p>
+              <p>If the Microsoft Outlook Startup Wizard doesn't open, on the Outlook toolbar click the <b class="ocpUI">File</b> tab. Then  click <b class="ocpUI">Add Account</b>  above the <b class="ocpUI">Account Settings</b> button.</p>
+            </li>
+            <li>
+              <p>Click <b class="ocpUI">Manually configure server settings or additional server types</b> &gt; <b class="ocpUI">Next</b>.</p>
+            </li>
+            <li>
+              <p>On the <b class="ocpUI">Choose Service</b> page, click <b class="ocpUI">Internet E-mail</b> &gt; <b class="ocpUI"> Next</b><b class="ocpLegacyBold">.</b></p>
+            </li>
+            <li>
+              <p>Provide the following information on the <b class="ocpUI">Internet E-mail Settings</b> page.</p>
+              <p>Under <b class="ocpUI">User Information</b>:</p>
+              <ul>
+                <li>
+                  <p>In the <b class="ocpUI">Your Name</b> box, type the <i class="ocpItalic">name</i> you want users to see when you send email from this account.</p>
+                </li>
+                <li>
+                  <p>In the <b class="ocpUI">E-mail Address</b> box, type your <i class="ocpItalic">email address</i>.</p>
+                </li>
+              </ul>
+              <p>Under <b class="ocpUI">Server Information</b>: </p>
+              <ul>
+                <li>
+                  <p>In the <b class="ocpUI">Account Type</b> list, click <b class="ocpUI">IMAP</b> or <b class="ocpUI">POP3</b>. Consider using IMAP because it supports more features.</p>
+                </li>
+                <li>
+                  <p>In the <b class="ocpUI">Incoming mail server</b> box, type the <i class="ocpItalic">IMAP or POP server name</i>. If you’re connecting to your Office 365 email, the IMAP or POP server name is <b class="ocpUI">outlook.office365.com</b>. If you’re not using Office 365, see <a href="#__find_your_pop" class="ocpInlineLink" title="Find your POP or IMAP server settings">Find your POP or IMAP server settings</a>  in this article.</p>
+                </li>
+                <li>
+                  <p>In the <b class="ocpUI">Outgoing mail server (SMTP)</b> box, type the <i class="ocpItalic">SMTP server name</i>. If you’re connecting to your Office 365 email, the SMTP server name is <b class="ocpUI">smtp.office365.com</b>. If you’re not using Office 365, see <a href="#__find_your_pop" class="ocpInlineLink" title="Find your POP or IMAP server settings">Find your POP or IMAP server settings</a>  in this article.</p>
+                </li>
+              </ul>
+              <p>Under <b class="ocpUI">Logon Information</b>:</p>
+              <ul>
+                <li>
+                  <p>In the <b class="ocpUI">User Name</b> box, type your <i class="ocpItalic">email address</i>.</p>
+                </li>
+                <li>
+                  <p>In the <b class="ocpUI">Password</b> box, type your <i class="ocpItalic">password</i>. If you want Outlook to remember your password, make sure the check box next to <b class="ocpUI">Remember password</b> is selected. </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>At the bottom of the page, click <b class="ocpUI">More Settings</b>, and then fill in the <b class="ocpUI">Internet E-Mail Settings</b> dialog box as follows: </p>
+              <p>On the <b class="ocpUI">Outgoing Server</b> tab, select <b class="ocpUI">My outgoing server (SMTP) requires authentication</b>.</p>
+              <p>On the <b class="ocpUI">Advanced</b> tab</p>
+              <ul>
+                <li>
+                  <p>Under <b class="ocpUI">Incoming server (IMAP)</b>, or <b class="ocpUI">Incoming server (POP3)</b>, next to <b class="ocpUI">Use the following type of encrypted connection</b>, select <b class="ocpUI">SSL</b> in the list. </p>
+                </li>
+                <li>
+                  <p>Under <b class="ocpUI">Outgoing server (SMTP)</b>, next to <b class="ocpUI">Use the following type of encrypted connection</b>, select <b class="ocpUI">TLS</b>, and then click <b class="ocpUI">OK</b>. </p>
+                </li>
+                <li>
+                  <p>If you're using POP3 and you want to keep a copy of your messages on the server, under <b class="ocpUI">Delivery</b>, click <b class="ocpUI">Leave a copy of messages on the server</b>. If you don't select this option, all messages are removed from the server and stored locally on your computer. </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>On the <b class="ocpUI">Add New Account</b> page, click <b class="ocpUI">Next</b>. After Outlook tests your account, click <b class="ocpUI">Close</b> to close the <b class="ocpUI">Test Account Settings</b> dialog box.</p>
+            </li>
+            <li>
+              <p>On the <b class="ocpUI">Congratulations</b> page, click <b class="ocpUI">Finish</b>.</p>
+            </li>
+            <li>
+              <p>On the <b class="ocpUI">Account Settings</b> page, click <b class="ocpUI">Close</b>.</p>
+            </li>
+            <li>
+              <p>If you're using IMAP4, a message may appear asking you if you want to download folders for the mail server that you added. Click <b class="ocpUI">Yes</b>. Use the Outlook user interface to select which folders to synchronize between the server and your local computer, and then click <b class="ocpUI">OK</b>.</p>
+            </li>
+          </ol>
+          <a name="__find_your_pop">	</a>
+          <section class="ocpSection">
+            <h3>Find your POP or IMAP server settings</h3>
+            <p>If you’re connecting to your Office 365 email, you don’t need to look up your settings. For Office 365, the server name for IMAP and POP is <b class="ocpUI">outlook.office365.com</b> and the server name for SMTP is <b class="ocpUI">smtp.office365.com</b>.</p>
+            <p>If you’re not connecting to Office 365 email, do the following to look up your settings.</p>
+            <ol type="1">
+              <li>
+                <p>Sign in to your account using Outlook Web App. For help signing in, see <a href="Sign-in-to-Outlook-Web-App-e08eb8ac-ac27-49f4-a400-a47311e1ee7e" class="ocpArticleLink" title="Sign in to Outlook Web App">Sign in to Outlook Web App</a>.</p>
+              </li>
+              <li>
+                <p>In Outlook Web App, on the toolbar, click <b class="ocpUI">Settings </b> <img alt="Settings icon" src="https://support.content.office.net/en-US/media/22ecb306-849a-4d04-8885-fe49ec9df8ce.png" />  &gt; <b class="ocpUI">Options</b> &gt; <b class="ocpUI">Account</b> &gt; <b class="ocpUI">My account</b> &gt; <b class="ocpUI">Settings for POP and IMAP access</b>. </p>
+              </li>
+              <li>
+                <p>The POP3, IMAP4, and SMTP server name and other settings you may need to enter are listed on the <b class="ocpUI">Settings for POP and IMAP access</b> page under <b class="ocpUI">POP setting</b> or <b class="ocpUI">IMAP setting</b>, and <b class="ocpUI">SMTP setting</b>. </p>
+              </li>
+            </ol>
+            <p>
+              <a href="#top" class="ocpTopOfPage" title="Top of Page">Top of Page</a>
+            </p>
+          </section>
+        </section>
+        <a name="__what_else_do">	</a>
+        <section class="ocpSection">
+          <h2>What else do I need to know?</h2>
+          <ul>
+            <li>
+              <p>If you want to connect to an email account that is not an Office 365 or other Exchange-based account, see <a href="Add-an-email-account-e5a41393-426d-4f55-ba72-77f181edd774" class="ocpArticleLink" title="Add an email account">Add an email account</a>.</p>
+            </li>
+            <li>
+              <p>If your email account is the type that requires registration, you must register it the first time you sign in to Outlook Web App. Connecting to your email account through OutlookOutlook will fail if you
+haven't registered your account through Outlook Web App. After you sign in to your account, sign out. Then try to connect using Outlook. For more information about how to sign in to your account using Outlook Web App, see <a href="Sign-in-to-Outlook-Web-App-e08eb8ac-ac27-49f4-a400-a47311e1ee7e" class="ocpArticleLink" title="Sign in to Outlook Web App">Sign in to Outlook Web App</a>. </p>
+            </li>
+            <li>
+              <p>If you are using Windows RT 8.1, you can use Outlook 2013 RT, a version of Outlook 2013 optimized for touch, to connect to your account. </p>
+            </li>
+            <li>
+              <p>If you can't successfully connect to your account using Outlook, do one or more of the following:</p>
+              <ul>
+                <li>
+                  <p>Wait a few minutes and try again.</p>
+                </li>
+                <li>
+                  <p>If you need to connect to your email account immediately, use a Web browser or an email program that supports POP or IMAP to connect to your account using Outlook Web App.</p>
+                </li>
+                <li>
+                  <p>For information about how to connect using a Web browser, see <a href="Sign-in-to-Outlook-Web-App-e08eb8ac-ac27-49f4-a400-a47311e1ee7e" class="ocpArticleLink" title="Sign in to Outlook Web App">Sign in to Outlook Web App</a>. For information about how to connect using a POP or IMAP email program, see <a href="Use-IMAP-or-POP-email-programs-44f951cc-2041-47ed-b674-506889ca9d8b" class="ocpArticleLink" title="Use IMAP or POP email programs">Use IMAP or POP email programs</a>. </p>
+                </li>
+                <li>
+                  <p>If you don't know whether to use POP3 or IMAP4, consider using IMAP4 because it supports more features.</p>
+                </li>
+                <li>
+                  <p>If you know the name of the person who manages your mailbox (sometimes called an email administrator), contact them and report the error you're getting when you try to connect with Outlook.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>For more information about how to use Outlook, see <a href="Video-Whats-New-in-Outlook-2013-24ba0a8b-9f51-461f-8257-b8707467e323" class="ocpArticleLink" title="Video: What’s New in Outlook 2013">Video: What’s New in Outlook 2013</a>, <a href="Outlook-2013-Quick-Start-Guide-dd79626f-8da3-439b-8de1-17908d29ae20" class="ocpArticleLink" title="Outlook 2013 Quick Start Guide">Outlook 2013 Quick Start Guide</a>, and <a href="Basic-tasks-in-Outlook-2013-192eb102-2ee2-4049-b7f5-aa0eb4231fbb" class="ocpArticleLink" title="Basic tasks in Outlook 2013">Basic tasks in Outlook 2013</a>, and <a href="Basic-tasks-in-Outlook-2010-9988b344-a7bf-4904-906f-414a3af7a727" class="ocpArticleLink" title="Basic tasks in Outlook 2010">Basic tasks in Outlook 2010</a>. </p>
+            </li>
+          </ul>
+        </section>
+        <a name="__toc332372190">	</a>
+        <section class="ocpSection">
+          <h2>What if I want to know more?</h2>
+          <p>
+            <a href="Supported-email-programs-and-features-36932ab9-68aa-458d-b83d-ee8848220497" class="ocpArticleLink" title="Supported email programs and features">Supported email programs and features</a>
+          </p>
+          <p>
+            <a href="#top" class="ocpTopOfPage" title="Top of Page">Top of Page</a>
+          </p>
+        </section>
+      </article>
+
+
+
+
+
+
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-4-6">
+							<p class="ocAppliesToSection"><strong>Applies To: </strong>Outlook 2013, Outlook 2010, Outlook Web App, Outlook Web App for Office 365</p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	
+﻿
+<section id="ocFB">
+	<div class="grd">
+		<div class="row">
+			<div id="ocFBCont" class="col-4-6">
+				<div id="ocFBBegin" class="bicmp-Feedback">
+					<h2>Was this information helpful?</h2>
+					<form>
+						<a href="#showFB"><span href="#showFB" class="ocFBRadioBtn"><input type="radio" id="ocFBRadioYes" class="ocFBRadio ocFBRadioYes" name="feedback" value='Yes' /></span><span id="ocFBYes">Yes</span></a>
+						<a href="#showFB"><span class="ocFBRadioBtn"><input type="radio" id="ocFBRadioNo" class="ocFBRadio ocFBRadioNo" name="feedback" value='No' /></span><span id="ocFBNo">No</span></a>
+</form>
+				</div>
+				<div id="ocFBReply">
+					<h3>How can we improve it?</h3>
+					<span id="ocFBChar"><span id="ocFBChRemain">255</span> characters remaining</span>
+					<form name="feedbackCont">
+						<textarea id="FeedbackText" name="FeedbackText" onpaste="countDown(this, 255, 'ocFBChRemain');" onkeyup="countDown(this, 255, 'ocFBChRemain');" rows="4" cols="40" maxlength="255"></textarea><br>
+						<div id="ocFBPrivacy"><span>To protect your privacy, please do not include contact information in your feedback.</span> <span>Review our</span> <span><a href="http://go.microsoft.com/fwlink/?LinkID=507380" title='privacy policy'>privacy policy</a></span><span>.</span></div>
+						<button id="showFB" type="button" class="FBGrnBtn ocFBSubmit" value='Send'>Send</button>
+					</form>
+				</div>
+				<div id="ocFBFinal">
+					<h2>Thank you for your feedback!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+
+	<section id="ocAsstHelp" class="ocHelpHide">
+		<div class="grd">
+			<div class="row">
+				<div class="col-4-5">
+					<h2>Support resources</h2>
+					<div id="ocHelpBtns">
+											</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	</div></div>
+	<div id='f_bar' class='footerContainer FooterUIFont  DarkColorPalette' style='' role='footer'>
+	<div class='footerBLC'>
+	<a href='//store.office.com/worldwide.aspx?rs=en%2DNZ&amp;returnURL=https%3A%2F%2Fsupport%2Eoffice%2Ecom%2Fen%2Dnz%2Farticle%2FSet%2Dup%2Demail%2Din%2DOutlook%2D2010%2Dor%2DOutlook%2D2013%2Dfor%2DOffice%2D365%2Dor%2DExchange%2Dbased%2Daccounts%2D6e27792a%2D9267%2D4aa4%2D8bb6%2Dc84ef146101b%3Fui%3Den%2DUS%26rs%3Den%2DNZ%26ad%3DNZ&amp;cmapid=1' id='f_ww'>
+		<img class='footerGlobe' src='/resources/1033/Globe_Light.20x20x32.png?b=16039111000' role='presentation'/>
+		<span>Change language</span>
+	</a>
+</div>
+	<div class='footerBRC' style=''>
+		<div class='footerBRCoutercell'>
+			<div class='footerBRCinnerrow'>
+				<a href='http://go.microsoft.com/fwlink/?LinkId=316963'  id='FLAccessibility' class=' FLinks' target='_self'>Accessibility</a><a href='http://go.microsoft.com/fwlink/?LinkId=316964'  id='FLContactUs' class=' FLinks' target='_self'>Contact us</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316968'  id='f_link2' class=' ' target='_self'>Privacy and Cookies</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316967'  id='f_link3' class=' ' target='_self'>Legal</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316970'  id='f_link4' class=' ' target='_self'>Trademarks</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316971'  id='f_link5' class=' ' target='_self'>&#169; 2015 Microsoft</a>
+			</div>
+		</div>
+	</div>
+	<div style='clear: both'></div>
+</div>
+
+	<script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1?b=16039182150"></script>
+
+	
+	<script src="/bundles/support?v=Srrwpen3ixLFSnyb39Gsj2--cQY4LNzgdmLGlTc7p181?b=16039182150"></script>
+
+	<script src="/bundles/article?v=JTHh2AgFnjbGRTHPOgZDfpiACU4342ptXrDMV2tK7MA1?b=16039182150"></script>
+
+	<script src="/Scripts/home.js?b=16039182150" type="text/javascript"></script>
+	
+	<script type="text/javascript">RegisterHRDListener();</script>
+
+	<script type="text/javascript" src="https://c.microsoft.com/ms.js"></script>
+	<script type="text/javascript" src="https://hubs-video.ssl.catalog.video.msn.com/s/js/vxp.js"></script>
+		<script type="text/javascript" src="https://www.microsoft.com/library/svy/office/support/broker.js"></script>
+	<noscript><img alt="" style="width:1px;height: 1px" src="https://c.microsoft.com/trans_pixel.aspx" /></noscript>
+</body>
+</html>

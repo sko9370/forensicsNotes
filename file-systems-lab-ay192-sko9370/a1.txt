@@ -1,0 +1,10 @@
+a. What type of file is this?
+This is a Windows 7 DOS/MBR boot sector.
+
+b. How did you determine and confirm the file type?
+I ran file on file001 which showed that it was an MBR and then ran hexdump -C file001 to verify the last 4 bytes were 55 and aa.
+Stat file001 also revealed that it was 512 bytes.
+
+c. What relevant information does this file contain?
+This file contains information about the OS of the machine it came from, the partitions and their sizes, and also that it was corrupted or invalidated somehow.
+Stat also shows that it was last modified in 2016-01-28, which may be because the year wasn't properly updated when this vm was set up and the files were moved in.

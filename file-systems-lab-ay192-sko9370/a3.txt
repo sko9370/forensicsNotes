@@ -1,0 +1,13 @@
+a. What type of file is this?
+This is the MBR of a DOS/MBR boot sector.
+
+b. How did you determine and confirm the file type?
+I used the file command to determine that it had information about different partitions.
+The hexdump revealed that the last 4 hex values were 55 and aa, indicative of MBRs.
+
+c. What relevant information does this file contain?
+The strings command revealed that the filesystem type was NTFS, which is commonly used by Windows.
+The file command used the "cluster" term, which Windows also uses as well to describe sectors.
+The serial number from the same command could also possibly be used to track down the purchase location.
+The BOOTMGR was compressed for some reason and the system entered some sort of error state.
+It seemed that the disk was corrupted somehow.

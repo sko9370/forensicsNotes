@@ -1,0 +1,12 @@
+a. What type of file is this?
+This is a DOS/MBR boot sector.
+
+b. How did you determine and confirm the file type?
+I used file to get the file type and then ran hexdump -C file002 to verify that the last 4 bytes are 55 aa. The size is also 512 bytes.
+
+c. What relevant information does this file contain?
+The file contains information about the size and location of the 3 different partitions.
+Using stat, the modified date shows up as in 2016, but that's probably because the file was created/moved before the system got a chance to sync with the network date/time.
+hexdump -C seemed to be leaving out some output, so I ran hexdump -vC to display all the data.
+The zeroes seem to indicate some data was very consciously erased from this disk.
+Normal users would not use this method because it takes longer and makes data irrecoverable.

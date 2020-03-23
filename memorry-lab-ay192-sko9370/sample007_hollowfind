@@ -1,0 +1,127 @@
+Hollowed Process Information:
+	Process: lsass.exe PID: 1928
+	Parent Process: services.exe PPID: 668
+	Creation Time: 2011-06-03 04:26:55 UTC+0000
+	Process Base Name(PEB): lsass.exe
+	Command Line(PEB): "C:\WINDOWS\\system32\\lsass.exe"
+	Hollow Type: Invalid EXE Memory Protection and Process Path Discrepancy
+
+VAD and PEB Comparison:
+	Base Address(VAD): 0x1000000
+	Process Path(VAD): 
+	Vad Protection: PAGE_EXECUTE_READWRITE
+	Vad Tag: Vad 
+
+	Base Address(PEB): 0x1000000
+	Process Path(PEB): C:\WINDOWS\system32\lsass.exe
+	Memory Protection: PAGE_EXECUTE_READWRITE
+	Memory Tag: Vad 
+
+Disassembly(Entry Point):
+	0x010014bd e95f1c0000       JMP 0x1003121
+	0x010014c2 0000             ADD [EAX], AL
+	0x010014c4 0000             ADD [EAX], AL
+	0x010014c6 0000             ADD [EAX], AL
+	0x010014c8 0000             ADD [EAX], AL
+	0x010014ca 0000             ADD [EAX], AL
+	0x010014cc 0000             ADD [EAX], AL
+	0x010014ce 0000             ADD [EAX], AL
+	0x010014d0 0000             ADD [EAX], AL
+	0x010014d2 0000             ADD [EAX], AL
+	0x010014d4 0000             ADD [EAX], AL
+	0x010014d6 0000             ADD [EAX], AL
+	0x010014d8 0000             ADD [EAX], AL
+	0x010014da 0000             ADD [EAX], AL
+	0x010014dc 0000             ADD [EAX], AL
+	0x010014de 0000             ADD [EAX], AL
+	0x010014e0 0000             ADD [EAX], AL
+	0x010014e2 0000             ADD [EAX], AL
+	0x010014e4 0000             ADD [EAX], AL
+	0x010014e6 0000             ADD [EAX], AL
+	0x010014e8 0000             ADD [EAX], AL
+	0x010014ea 0000             ADD [EAX], AL
+	0x010014ec 0000             ADD [EAX], AL
+	0x010014ee 0000             ADD [EAX], AL
+	0x010014f0 0000             ADD [EAX], AL
+	0x010014f2 0000             ADD [EAX], AL
+	0x010014f4 0000             ADD [EAX], AL
+	0x010014f6 0000             ADD [EAX], AL
+	0x010014f8 0000             ADD [EAX], AL
+	0x010014fa 0000             ADD [EAX], AL
+	0x010014fc 00               DB 0x0
+
+Similar Processes:
+	lsass.exe(1928) Parent:services.exe(668) Start:2011-06-03 04:26:55 UTC+0000
+	lsass.exe(680) Parent:winlogon.exe(624) Start:2010-10-29 17:08:54 UTC+0000
+	lsass.exe(868) Parent:services.exe(668) Start:2011-06-03 04:26:55 UTC+0000
+
+Suspicious Memory Regions:
+	0x80000(PE Found)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+	0x1000000(PE Found)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+	0x6f0000(No PE/Possibly Code)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+	0x680000(No PE/Possibly Code)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+	0x870000(PE Found)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+---------------------------------------------------
+
+Hollowed Process Information:
+	Process: lsass.exe PID: 868
+	Parent Process: services.exe PPID: 668
+	Creation Time: 2011-06-03 04:26:55 UTC+0000
+	Process Base Name(PEB): lsass.exe
+	Command Line(PEB): "C:\WINDOWS\\system32\\lsass.exe"
+	Hollow Type: Invalid EXE Memory Protection and Process Path Discrepancy
+
+VAD and PEB Comparison:
+	Base Address(VAD): 0x1000000
+	Process Path(VAD): 
+	Vad Protection: PAGE_EXECUTE_READWRITE
+	Vad Tag: Vad 
+
+	Base Address(PEB): 0x1000000
+	Process Path(PEB): C:\WINDOWS\system32\lsass.exe
+	Memory Protection: PAGE_EXECUTE_READWRITE
+	Memory Tag: Vad 
+
+Disassembly(Entry Point):
+	0x010014bd e95f1c0000       JMP 0x1003121
+	0x010014c2 0000             ADD [EAX], AL
+	0x010014c4 0000             ADD [EAX], AL
+	0x010014c6 0000             ADD [EAX], AL
+	0x010014c8 0000             ADD [EAX], AL
+	0x010014ca 0000             ADD [EAX], AL
+	0x010014cc 0000             ADD [EAX], AL
+	0x010014ce 0000             ADD [EAX], AL
+	0x010014d0 0000             ADD [EAX], AL
+	0x010014d2 0000             ADD [EAX], AL
+	0x010014d4 0000             ADD [EAX], AL
+	0x010014d6 0000             ADD [EAX], AL
+	0x010014d8 0000             ADD [EAX], AL
+	0x010014da 0000             ADD [EAX], AL
+	0x010014dc 0000             ADD [EAX], AL
+	0x010014de 0000             ADD [EAX], AL
+	0x010014e0 0000             ADD [EAX], AL
+	0x010014e2 0000             ADD [EAX], AL
+	0x010014e4 0000             ADD [EAX], AL
+	0x010014e6 0000             ADD [EAX], AL
+	0x010014e8 0000             ADD [EAX], AL
+	0x010014ea 0000             ADD [EAX], AL
+	0x010014ec 0000             ADD [EAX], AL
+	0x010014ee 0000             ADD [EAX], AL
+	0x010014f0 0000             ADD [EAX], AL
+	0x010014f2 0000             ADD [EAX], AL
+	0x010014f4 0000             ADD [EAX], AL
+	0x010014f6 0000             ADD [EAX], AL
+	0x010014f8 0000             ADD [EAX], AL
+	0x010014fa 0000             ADD [EAX], AL
+	0x010014fc 00               DB 0x0
+
+Similar Processes:
+	lsass.exe(868) Parent:services.exe(668) Start:2011-06-03 04:26:55 UTC+0000
+	lsass.exe(680) Parent:winlogon.exe(624) Start:2010-10-29 17:08:54 UTC+0000
+	lsass.exe(1928) Parent:services.exe(668) Start:2011-06-03 04:26:55 UTC+0000
+
+Suspicious Memory Regions:
+	0x80000(PE Found)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+	0x1000000(PE Found)  Protection: PAGE_EXECUTE_READWRITE  Tag: Vad 
+---------------------------------------------------
+

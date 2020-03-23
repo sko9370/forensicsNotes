@@ -1,0 +1,1 @@
+netstat prints all network connections, specifically identifying which ip addresses and ports are connected. This can help trace back the identity or location of the attacker or victim.

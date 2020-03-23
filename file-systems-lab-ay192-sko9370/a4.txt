@@ -1,0 +1,12 @@
+a. What type of file is this?
+This is a "Composite Document File V2 Document."
+
+b. How did you determine and confirm the file type?
+I used the file command to determine the file type.
+File was also able to get a lot of metadata from the document which confirmed that it was some sort of document file.
+
+c. What relevant information does this file contain?
+The file command reveals that the file was created by Michael Robinson on a Mac using Mac Excel.
+The last modify date was 2015-10-23 according to stat command, but file command says 2015-10-07 was the last saved date.
+This disparity could hint at some suspicious editing of the file that the author or secret author wanted to hide.
+Further analysis of this file should be done before attempting to open it in the actual application.

